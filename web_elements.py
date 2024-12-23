@@ -1,0 +1,66 @@
+# from selenium.webdriver.chrome.webdriver import WebDriver
+# from time import  sleep
+# driver=WebDriver()
+# driver.maximize_window()
+# driver.implicitly_wait(10)
+# driver.get("https://demowebshop.tricentis.com/")
+# register=driver.find_element("xpath",'//a[text()="Register"]')
+# print(register.text)
+# register.screenshot("register.png")
+# print(register.get_attribute("href"))
+# print(register.size)
+# print(register.location)
+# print(register.tag_name)
+# register.click()
+from multiprocessing.resource_tracker import register
+
+from selenium.webdriver import ActionChains, Keys
+# from selenium.webdriver.chrome.webdriver import WebDriver
+# from time import  sleep
+# driver=WebDriver()
+# driver.maximize_window()
+# driver.implicitly_wait(10)
+# driver.get("https://tutorialsninja.com/demo/")
+# contact=driver.find_element("link text","Contact Us")
+# print(contact.text)
+# print(contact.tag_name)
+# print(contact.size)
+# print(contact.get_attribute("href"))
+# contact.screenshot("contact.png")
+# print(contact.rect)
+# print(contact.is_displayed())
+# from selenium.webdriver.chrome.webdriver import WebDriver
+# from time import sleep
+# driver=WebDriver()
+# driver.implicitly_wait(10)
+# driver.get("https://www.flipkart.com/")
+# driver.maximize_window()
+# print(driver.get_window_size())
+# print(driver.get_window_position())
+# print(driver.get_window_rect())
+# sleep(2)
+# driver.forward()
+# sleep(1)
+# driver.refresh()
+# sleep(1)
+# driver.forward()
+# sleep(1)
+# driver.back()
+# sleep(1)
+# driver.close()
+# sleep(2)
+from selenium.webdriver.chrome.webdriver import WebDriver
+from time import sleep
+driver=WebDriver()
+driver.maximize_window()
+driver.implicitly_wait(10)
+driver.get('https://omayo.blogspot.com/')
+# ac=ActionChains(driver)
+# text1=driver.find_element("xpath",'(//textarea[@rows="10"])[2]')
+# text2=driver.find_element("xpath",'(//textarea[@rows="10"])[1]')
+# ac.click(text1).key_down(Keys.CONTROL).send_keys("a").send_keys("c").key_up(Keys.CONTROL).click(text2).key_down(Keys.CONTROL).send_keys("v").key_up(Keys.CONTROL).perform()
+# sleep(2)
+# s=driver.find_element("link text","Tutorial").click()
+# s=driver.find_element("xpath",'//input[@class="gsc-input"]').send_keys("anilkumar")
+# sleep(5)
+# vi
